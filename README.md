@@ -41,6 +41,8 @@ __How to:__
  - to migrate DB: `$ rake db:migrate`
  - to seed tournaments:`$ rake db:seed` 
 
+- Or just run: `bundle exec rake db:create db:migrate db:seed`
+
 
 5). Run Puma server: `$ rails s`
  
