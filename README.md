@@ -2,7 +2,7 @@
 
 __Dota2Tournament__ is a teams tournament app based on Rails + PostgreSQL.  
 
-ver.: 0.9, 
+ver.: 0.9
 
 Created by v.n.zubarev@gmail.com on 23/12/18
 ***********************************************************************************************
@@ -19,13 +19,13 @@ __How to:__
 - `$ git clone https://github.com/VovkaZy/Dota2Tournament-starladder.git`
 
 2). After this, change the directory to that, which contain game files: 
-- `cd dirpath/Dota2Tournament-starladder/`
+- `$ cd dirpath/Dota2Tournament-starladder/`
 
 3). Run bundle to install required gems : 
 - `$ bundle install`
 
 4). Install figaro gem: 
-- `bundle exec figaro install` to add `config/application.yml` file with `ENV`. 
+- `$ bundle exec figaro install` to add `config/application.yml` file with `ENV`. 
 - Then open `config/application.yml` and set up your `ENV` keys for Starladder oAuth: 
   ```
   # config/application.yml
@@ -41,7 +41,7 @@ __How to:__
  - to migrate DB: `$ rake db:migrate`
  - to seed tournaments:`$ rake db:seed` 
 
-- Or just run: `bundle exec rake db:create db:migrate db:seed`
+- Or just run: `$ bundle exec rake db:create db:migrate db:seed`
 
 
 5). Run Puma server: `$ rails s`
